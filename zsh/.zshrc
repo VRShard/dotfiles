@@ -84,12 +84,25 @@ plugins=(
     git-auto-fetch
     docker
     zsh-autosuggestions
+    virtualenvwrapper
 )
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#808080"
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+if [[ `uname` == Darwin ]]; then
+    MAX_MEMORY_UNITS=KB
+else
+    MAX_MEMORY_UNITS=MB
+fi
 
+TIMEFMT='%J   %U  user %S system %P cpu %*E total'$'\n'\
+'avg shared (code):         %X KB'$'\n'\
+'avg unshared (data/stack): %D KB'$'\n'\
+'total (sum):               %K KB'$'\n'\
+'max memory:                %M '$MAX_MEMORY_UNITS''$'\n'\
+'page faults from disk:     %F'$'\n'\
+'other page faults:         %R'
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
