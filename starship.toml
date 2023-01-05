@@ -1,5 +1,7 @@
 format = """
 [╭─](white)\
+$hostname\
+[](white)\
 $username\
 [](bg:#FFAC09 fg:white)\
 $directory\
@@ -27,6 +29,10 @@ show_always = false
 style_user = "bg:white"
 style_root = "bg:white"
 format = '[$user ]($style)'
+
+[hostname]
+format = "[$ssh_symbol$hostname]($style)[\ue0b4](fg:white) of "
+style = "bg:white fg:bold"
 
 [directory]
 style = "bg:#FFAC09"
