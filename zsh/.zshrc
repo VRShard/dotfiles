@@ -130,6 +130,7 @@ alias ls="exa --icons --colour=always --group-directories-first"
 alias f='fzf --height=30%'
 alias fzf='fzf --height=90% --ansi --preview "bat --color=always --line-range :500 {}" --preview-window right,border-left  --padding=0'
 alias nvv='f | xargs -r nvim'
+alias screen='screen ~/.config/screenrc'
 # alias whereami="echo $(pwd)"
 # Homebrew
 export PATH="$HOME/.local/rd/bin:$PATH"

@@ -1,0 +1,6 @@
+layout save default
+bind j focus down
+bind k focus up
+bind l focus right
+bind h focus left
+altscreen on
