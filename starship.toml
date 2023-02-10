@@ -31,6 +31,7 @@ style_root = "bg:white"
 format = '[$user ]($style)'
 
 [hostname]
+ssh_only = false
 format = "[$ssh_symbol$hostname]($style)[\ue0b4](fg:white) of "
 style = "bg:white fg:bold"
 
