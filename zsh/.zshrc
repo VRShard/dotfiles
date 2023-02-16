@@ -10,7 +10,8 @@ export LESSHISTFILE="$HOME/.local/less/history"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="agnoster"
+# ZSH_THEME="agnoster"
+ZSH_THEME=""
 DEFAULT_USER="viera"
 export npm_config_userconfig=$HOME/.config/npm/config
 export npm_config_cache=$HOME/.cache/npm
@@ -130,7 +131,7 @@ alias ls="exa --icons --colour=always --group-directories-first"
 alias f='fzf --height=30%'
 alias fzf='fzf --height=90% --ansi --preview "bat --color=always --line-range :500 {}" --preview-window right,border-left  --padding=0'
 alias nvv='f | xargs -r nvim'
-alias screen='screen ~/.config/screenrc'
+alias screen='screen -c ~/.config/screenrc'
 # alias whereami="echo $(pwd)"
 # Homebrew
 export PATH="$HOME/.local/rd/bin:$PATH"
