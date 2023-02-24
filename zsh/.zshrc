@@ -2,10 +2,12 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="$HOME/.config/oh-my-zsh"
-export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
-HISTFILE=$ZDOTDIR/.zsh_history
-export LESSHISTFILE="$HOME/.local/less/history"
+
+# export ZSH="$HOME/.config/oh-my-zsh"
+# export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
+# HISTFILE=$ZDOTDIR/.zsh_history
+# export LESSHISTFILE="$HOME/.local/less/history"
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -13,13 +15,13 @@ export LESSHISTFILE="$HOME/.local/less/history"
 # ZSH_THEME="agnoster"
 ZSH_THEME=""
 DEFAULT_USER="viera"
-export npm_config_userconfig=$HOME/.config/npm/config
-export npm_config_cache=$HOME/.cache/npm
-export GOPATH=$HOME/.local/go
-export WORKON_HOME=$HOME/.local/virtualenvs
-export GRADLE_USER_HOME=$HOME/.cache/gradle
-export CARGO_HOME=$HOME/.local/cargo
-export RUSTUP_HOME=$HOME/.local/rustup
+# export npm_config_userconfig=$HOME/.config/npm/config
+# export npm_config_cache=$HOME/.cache/npm
+# export GOPATH=$HOME/.local/go
+# export WORKON_HOME=$HOME/.local/virtualenvs
+# export GRADLE_USER_HOME=$HOME/.cache/gradle
+# export CARGO_HOME=$HOME/.local/cargo
+# export RUSTUP_HOME=$HOME/.local/rustup
 [ -f ~/.local/fzf/.fzf.zsh ] && source ~/.local/fzf/.fzf.zsh
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -134,7 +136,9 @@ alias nvv='f | xargs -r nvim'
 alias screen='screen -c ~/.config/screenrc'
 # alias whereami="echo $(pwd)"
 # Homebrew
-export PATH="$HOME/.local/rd/bin:$PATH"
+
+# export PATH="$HOME/.local/rd/bin:$PATH"
+
 #export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands
 # export PATH="$PATH:$HOME/Projects/Git_Repos/Flutter/flutter/bin:$HOME/Projects/Git_Repos/depot_tools"
 # export PATH="$PATH:$HOME/.local/bin"

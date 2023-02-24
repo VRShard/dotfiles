@@ -1,3 +1,8 @@
+export ZSH="$HOME/.config/oh-my-zsh"
+export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
+HISTFILE=$ZDOTDIR/.zsh_history
+export LESSHISTFILE="$HOME/.local/less/history"
+
 eval "$(/opt/homebrew/bin/brew shellenv)"
 export PYENV_ROOT=$HOME/.local/pyenv
 eval "$(pyenv init --path)"
