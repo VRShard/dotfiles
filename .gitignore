@@ -8,3 +8,9 @@ kitty/theme.conf
 zsh/.zsh_sessions
 zsh/.zsh_history
 htop/htoprc
+Unreal Engine
+gitui/theme.ron.old
+starship.toml.bk
+emacs/elpaca
+emacs/config.org~
+emacs/config.el

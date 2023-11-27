@@ -82,7 +82,7 @@ DEFAULT_USER="viera"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-    zsh-vi-mode
+    # zsh-vi-mode
     git 
     git-auto-fetch
     docker
@@ -134,6 +134,7 @@ alias f='fzf --height=30%'
 alias fzf='fzf --height=90% --ansi --preview "bat --color=always --line-range :500 {}" --preview-window right,border-left  --padding=0'
 alias nvv='f | xargs -r nvim'
 alias screen='screen -c ~/.config/screenrc'
+alias carche='RUSTC_WRAPPER="$(which sccache)" cargo'
 # alias whereami="echo $(pwd)"
 # Homebrew
 
@@ -150,6 +151,19 @@ source $HOME/.local/bin/virtualenvwrapper.sh
 #export ANDROID_HOME=$HOME/Library/Android/sdk
 #export ANDROID_NDK_HOME=$HOME/Library/Android/sdk/ndk/20.1.5948944
 #export NDK_HOME=$HOME/Library/Android/sdk/ndk/20.1.5948944
+
+proxyon() {
+    export http_proxy="http://127.0.0.1:1087"
+    export https_proxy="http://127.0.0.1:1087"
+    export all_proxy="socks5://127.0.0.1:1080"
+    echo "proxy on"
+}
+proxyoff() {
+    unset http_proxy
+    unset https_proxy
+    unset all_proxy
+    echo "proxy off"
+}
 
 export EDITOR=nvim
 eval "$(pyenv init -)"

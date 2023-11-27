@@ -1,0 +1,32 @@
+import:
+  - ~/.config/alacritty/themes/themes/gruvbox_light.yaml
+window:
+  option_as_alt: OnlyLeft
+env:
+  # TERM variable
+  #
+  # This value is used to set the `$TERM` environment variable for
+  # each instance of Alacritty. If it is not present, alacritty will
+  # check the local terminfo database and use `alacritty` if it is
+  # available, otherwise `xterm-256color` is used.
+  TERM: xterm-256color
+font:
+  normal:
+    family: Recursive
+    style: Regular
+  bold:
+    family: Operator Mono Lig
+    style: Bold
+  italic:
+    family: Blex Mono
+    style: Medium Italic
+  bold_italic:
+    family: Blex Mono
+    style: Bold Italic
+  size: 14.0
+  offset:
+    x: 1
+    y: 6
+  glyph_offset:
+    x: 0
+    y: 3

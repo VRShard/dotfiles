@@ -6,4 +6,7 @@ export GRADLE_USER_HOME=$HOME/.cache/gradle
 export CARGO_HOME=$HOME/.local/cargo
 export RUSTUP_HOME=$HOME/.local/rustup
 export PATH="$HOME/.local/rd/bin:$PATH"
+export DOTNET_ROOT="$HOMEBREW_PREFIX/opt/dotnet/libexec"
+export GNUPGHOME=$HOME/.config/gnupg
+export HOMEBREW_NO_ANALYTICS=1
 . "$HOME/.local/cargo/env"
