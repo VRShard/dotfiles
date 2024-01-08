@@ -9,4 +9,5 @@ export PATH="$HOME/.local/rd/bin:$PATH"
 export DOTNET_ROOT="$HOMEBREW_PREFIX/opt/dotnet/libexec"
 export GNUPGHOME=$HOME/.config/gnupg
 export HOMEBREW_NO_ANALYTICS=1
+# export MAKEFLAGS="-j4 $MAKEFLAGS"
 . "$HOME/.local/cargo/env"

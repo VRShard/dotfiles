@@ -7,7 +7,7 @@
 * Package Manager & essential packages
 ** Package Manager
 #+begin_src emacs-lisp
-(defvar elpaca-installer-version 0.5)
+(defvar elpaca-installer-version 0.6)
 (defvar elpaca-directory (expand-file-name "elpaca/" user-emacs-directory))
 (defvar elpaca-builds-directory (expand-file-name "builds/" elpaca-directory))
 (defvar elpaca-repos-directory (expand-file-name "repos/" elpaca-directory))
@@ -67,6 +67,13 @@
     (setq evil-vsplit-window-right t)
     (setq evil-split-window-below t)
     (evil-mode))
+#+end_src
+
+** Color Theme
+#+begin_src emacs-lisp
+    (use-package gruvbox-theme
+      :init 
+       (load-theme 'gruvbox t))
 #+end_src
 
 * Fonts & GUI config
