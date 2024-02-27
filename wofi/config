@@ -1,5 +1,5 @@
-key_up=Control_L-p
-key_down=Control_L-n
+key_up=Ctrl-p
+key_down=Ctrl-n
 gtk_dark=true
 prompt=
 matching=fuzzy
