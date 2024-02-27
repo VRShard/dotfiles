@@ -135,6 +135,8 @@ alias fzf='fzf --height=90% --ansi --preview "bat --color=always --line-range :5
 alias nvv='f | xargs -r nvim'
 alias screen='screen -c ~/.config/screenrc'
 alias carche='RUSTC_WRAPPER="$(which sccache)" cargo'
+alias vargo='CARGO_TARGET_X86_64_UNKNOWN_LINUX_GNU_RUNNER="valgrind --error-exitcode=1" cargo'
+alias varche='CARGO_TARGET_X86_64_UNKNOWN_LINUX_GNU_RUNNER="valgrind --error-exitcode=1" carche'
 # alias whereami="echo $(pwd)"
 # Homebrew
 
