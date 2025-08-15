@@ -33,4 +33,4 @@ bs-hl-color=31748f
 # grace-no-touch
 datestr=%a, %B %e
 timestr=%I:%M %p
-ignore-empty-password
+# ignore-empty-password

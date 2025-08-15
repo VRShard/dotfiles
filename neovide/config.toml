@@ -1,0 +1,18 @@
+wsl = false
+no-multigrid = false
+vsync = true
+maximized = false
+srgb = false
+idle = true
+neovim-bin = "/usr/bin/nvim" # in reality found dynamically on $PATH if unset
+frame = "full"
+title-hidden = true
+tabs = true
+[font]
+size = 14.0
+normal = { family  = "Recursive" }
+bold = { family = "Operator Mono Lig", style = "Bold W5"}
+italic = { family = "Blex Mono", style = "Medium Italic"}
+bold_italic = { family = "Blex Mono", style = "Bold Italic"}
+width = 1.0
+allow_float_size = true

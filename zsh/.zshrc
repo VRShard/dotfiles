@@ -87,7 +87,7 @@ plugins=(
     git-auto-fetch
     docker
     zsh-autosuggestions
-    virtualenvwrapper
+    # virtualenvwrapper
 )
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#808080"
 source $ZSH/oh-my-zsh.sh

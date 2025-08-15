@@ -15,7 +15,7 @@ export SHELL_SESSION_FILE=$SHELL_SESSION_DIR/$TERM_SESSION_ID
 
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
 export QT_QPA_PLATFORMTHEME=qt5ct
-export GTK_IM_MODULE=fcitx
+# export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
 export KUBECACHEDIR=$HOME/.cache/kubecache
